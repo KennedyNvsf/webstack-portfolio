@@ -1,0 +1,109 @@
+
+
+.introSection{
+
+    width: 85%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    // align-items: center;
+    
+}
+
+.middlesection{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.introText{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+    h1{
+        text-align: center;
+        font-size: 4.08rem;
+        line-height: 76.8px;
+    }
+
+    .title_span{
+        color: #1D92ED;
+    }
+
+    p{
+        font-size: 1.8rem;
+        text-align: center;
+        color: #22233099;
+        line-height: 34.2px;
+        margin-top: 2rem;
+    }
+}
+
+.intro_btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+    
+    button{
+
+        font-size: 1.6rem;
+        font-weight: 500;
+        padding: 2rem 4rem;
+        border-radius: 1rem;
+        margin-right: 2rem;
+        
+    }
+
+    .intro_startedBtn{
+
+        border: none;
+        background: #1D92ED;
+        color: #FFFFFF;
+
+        // &:hover{
+
+        //     color: #1D92ED;
+        //     border: 1px solid #1D92ED;
+        //     background: #FFFFFF;
+        //     transition: all 0.2s ease-in-out;
+
+        // }
+    }
+
+    .intro_learnBtn{
+
+        color: #1D92ED;
+        border: 1px solid #1D92ED;
+        background: #FFFFFF;
+
+        // &:hover{
+
+            
+        // border: none;
+        // background: #1D92ED;
+        // color: #FFFFFF;
+        // transition: all 0.2s ease-in-out;
+
+        // }
+    }
+}
+
+.introImage{
+
+    margin-top: 10rem;
+
+    img{
+
+        width: 489px;
+    }
+}
