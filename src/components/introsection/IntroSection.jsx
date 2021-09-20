@@ -1,9 +1,13 @@
-
 import React from 'react';
 import "../introsection/_introsection.scss";//styles
 import leftSide from "../../images/lefticons.png";
 import rightSide from "../../images/righticons.png";
-import devCartoon from "../../images/developercartoon.png"
+import devCartoon from "../../images/developercartoon.png";
+//ANIMATIONS
+import {motion} from "framer-motion";
+import { BoxAnimationLeft } from '../../animations';
+import {BoxAnimationRight } from '../../animations';
+import { BoxAnimationUp } from '../../animations';
 
 const IntroSection = () => {
 
@@ -11,11 +15,11 @@ const IntroSection = () => {
 
         <div className="introSection">
 
-            <div className="leftside">
+            <motion.div variants={BoxAnimationLeft} initial="hidden" animate="show" className="leftside">
                 <img src={leftSide} alt="" />
-            </div>
+            </motion.div>
 
-            <div className="middleSection">
+            <motion.div variants={BoxAnimationUp} initial="hidden" animate="show" className="middleSection">
 
                 <div className="introText">
                     <h1>Build your dream project <br/>with <span className="title_span">Web</span>Stack </h1>
@@ -37,11 +41,11 @@ const IntroSection = () => {
 
                 </div>
 
-            </div>
+            </motion.div>
 
-            <div className="rightside">
+            <motion.div variants={BoxAnimationRight} initial="hidden" animate="show" className="rightside">
                 <img src={rightSide} alt="" />
-            </div>
+            </motion.div>
         </div>
     )
 }

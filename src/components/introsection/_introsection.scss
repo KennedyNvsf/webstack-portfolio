@@ -61,6 +61,14 @@
         padding: 2rem 4rem;
         border-radius: 1rem;
         margin-right: 2rem;
+
+        transition: transform 0.2s ease-in-out;
+
+        &:hover{
+
+            transform: translateY(-1rem);
+            
+        }
         
     }
 
@@ -106,4 +114,164 @@
 
         width: 489px;
     }
+}
+
+
+/**RESPONSIVENESS**/
+
+@media screen and (min-width: 1536px){
+
+
+
+    .introImage{
+
+        margin-top: 5rem;
+        text-align: center;
+      
+
+        img{
+            
+            width: 50rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1250px){
+
+
+    .leftside, .rightside {
+
+        img{
+
+            width: 30rem;
+        }
+    }
+
+    .introText {
+
+        h1{
+            font-size: 3.5rem;
+        }
+    }
+
+    .introImage{
+
+        margin-top: 5rem;
+        text-align: center;
+
+        img{
+            
+            width: 40rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+
+
+    .leftside, .rightside {
+
+        img{
+
+            width: 25rem;
+        }
+    }
+
+    .introText {
+
+        h1{
+            font-size: 3.5rem;
+        }
+    }
+
+    .introImage{
+
+        margin-top: 5rem;
+        text-align: center;
+
+        img{
+            
+            width: 35rem;
+            
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1080px){
+
+
+    .leftside, .rightside {
+
+        display: none;
+
+        img{
+
+            width: 25rem;
+        }
+    }
+
+    .introText {
+
+        h1{
+            font-size: 4rem;
+        }
+
+        p, .intro_startedBtn, .intro_learnBtn{
+            font-size:2.5rem;
+        }
+    }
+
+    .introImage{
+
+        margin-top: 5rem;
+        text-align: center;
+
+        img{
+            
+            width: 45rem;
+            
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+
+
+    // .leftside, .rightside {
+
+    //     display: none;
+
+    //     img{
+
+    //         width: 25rem;
+    //     }
+    // }
+
+    .introText {
+
+        h1{
+            font-size: 3.5rem;
+        }
+
+        p, .intro_startedBtn, .intro_learnBtn{
+            font-size:2rem;
+        }
+    }
+
+    .introImage{
+
+        margin-top: 5rem;
+        text-align: center;
+
+        img{
+            
+            width: 45rem;
+            
+        }
+    }
+    
 }

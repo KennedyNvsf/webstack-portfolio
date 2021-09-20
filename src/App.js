@@ -2,6 +2,7 @@ import "./styles/app.scss";
 //COMPONENTS
 import NavBar from "./components/navbar/NavBar";
 import IntroSection from "./components/introsection/IntroSection";
+import { AnimatePresence } from "framer-motion"; //DETECTS WHEN THE MOUNTED COMPONENT LEAVES THE SCREEN.
 
 function App() {
 
@@ -10,8 +11,11 @@ function App() {
     <div className="App">
 
       <NavBar/>
-      <IntroSection/>
+    
 
+      <AnimatePresence exitBeforeEnter>
+           <IntroSection/>
+      </AnimatePresence>
     </div>
 
   );
