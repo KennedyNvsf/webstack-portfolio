@@ -1,0 +1,115 @@
+.common {
+  display: flex;
+  align-items: center;
+}
+
+.common-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .common-description {
+    padding-left: 1em;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .common {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+  }
+}
+
+.common-description h2 {
+  color: #1d92ed;
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.common-description h3 {
+  color: #222330;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+  padding-bottom: 0;
+}
+.common-description p {
+  color: #222330;
+  font-size: 1.3em;
+}
+.common-button {
+  width: 140px;
+  height: 45px;
+  background: #1d92ed;
+  padding: 0.5em;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+.common-button:hover {
+  background: #0467fb;
+}
+
+@media screen and (max-width: 768px) {
+  .common-button {
+    width: 200px;
+    height: 60px;
+    font-size: 1.1em;
+    padding: 0 10px;
+  }
+}
+
+.vision-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .vision-description {
+    padding-left: 1em;
+  }
+}
+
+.vision-description h2 {
+  color: #1d92ed;
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.vision-description h3 {
+  color: #222330;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+  padding-bottom: 0;
+}
+.vision-description p {
+  color: #222330;
+  font-size: 1.3em;
+}
+
+.vision-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.mission-img {
+  padding-right: 1em;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
