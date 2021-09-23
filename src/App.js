@@ -35,6 +35,3 @@ function App() {
 export default App;
 
 
-// TODO: ADD RESPONSIVENESS
-// TODO: ADD THEME ICON
-// TODO: UPDATE HERO SECTION ICONS

@@ -2,7 +2,11 @@ import React from "react";
 import Common from "../Common/Common";
 import missionImg from "../../images/mission.png";
 
+
 const Mission = () => {
+
+  
+
   return (
     <div>
       <Common
