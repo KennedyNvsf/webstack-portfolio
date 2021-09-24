@@ -7,6 +7,7 @@ import Vision from "./components/Vision/Vision";
 import Common from "./components/Common/Common";
 import {Marginer} from "./components/Marginer";
 import Mission from "./components/Mission/Mission";
+import ServicesSection from "./components/servicesOffered/ServicesSection";
 
 import { AnimatePresence } from "framer-motion"; //DETECTS WHEN THE MOUNTED COMPONENT LEAVES THE SCREEN.
 
@@ -26,6 +27,7 @@ function App() {
               <Mission/>
            <Marginer direction="vertical" margin="4em"/>
             <Vision/>
+            <ServicesSection/>
       </AnimatePresence>
     </div>
 

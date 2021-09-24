@@ -3,6 +3,7 @@
 body{
 
     background-color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 
@@ -13,3 +14,4 @@ body{
 @import "../components/introsection/introsection";
 @import "../components/TeamMembers/TeamMembers";
 @import "../components/Common/Common";
+@import "../components/servicesOffered/servicessection";
