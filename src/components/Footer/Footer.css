@@ -3,6 +3,8 @@
     gap: 5em;
     margin-left: 10em;
     margin-right: 5em;
+    width: 90%;
+    margin: auto;
   }
   @media screen and (max-width: 768px) {
     .footer {
@@ -17,6 +19,7 @@
   .footer-left {
     display: flex;
     flex-direction: column;
+    flex: 1;
     gap: 1.5em;
   }
   @media screen and (max-width: 768px) {
@@ -78,7 +81,6 @@
   .newsletter {
     display: flex;
     flex-direction: column;
-  
     justify-content: center;
   
     gap: 2em;

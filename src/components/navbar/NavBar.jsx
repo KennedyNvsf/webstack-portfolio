@@ -27,14 +27,14 @@ const NavBar = () => {
 
 
                 <li><a href="#Home" className="nav_active">Home</a></li>
-                <li><a href="#abt">About us</a></li>
-                <li><a href="#ser">Services</a></li>
-                <li><a href="#test">Testemonials</a></li>
-                <li><a href="#sub">Subscribe</a></li>
+                <li><a href="#team">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testemonials">Testemonials</a></li>
+                {/* <li><a href="#footer">Subscribe</a></li> */}
 
             </ul>
 
-            <button className="navBtn">Hire Us</button>
+            <a className="navBtn" href="#hire">Hire Us</a>
             
             
             <div class={`burger ${navStatus ? 'x' : ''}`} onClick={() => setnavStatus(!navStatus)}>

@@ -29,8 +29,8 @@ const IntroSection = () => {
 
                     <div className="intro_btn">
 
-                        <button className="intro_startedBtn">Get Started</button>
-                        <button className="intro_learnBtn">Learn More</button>
+                        <a href="#hire" className="intro_startedBtn">Get Started</a>
+                        <a href="#services" className="intro_learnBtn">Learn More</a>
 
                     </div>
                 </div>

@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import {Marginer} from "./components/Marginer";
 import Mission from "./components/Mission/Mission";
 import ServicesSection from "./components/servicesOffered/ServicesSection";
+import HireUs from "./components/Hire_us/Hire";
 
 import { AnimatePresence } from "framer-motion"; //DETECTS WHEN THE MOUNTED COMPONENT LEAVES THE SCREEN.
 
@@ -36,6 +37,8 @@ function App() {
             <Marginer direction="vertical" margin="3em" />
              <Testimonials />
 
+            <HireUs/>
+            
        </AnimatePresence>
        
             <Marginer direction="vertical" margin="6em" />

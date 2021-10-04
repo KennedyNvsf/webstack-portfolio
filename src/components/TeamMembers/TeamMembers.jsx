@@ -17,7 +17,7 @@ import { faDribbble, faGithub } from "@fortawesome/free-brands-svg-icons";
 const TeamMembers = () => {
   return (
     <>
-      <h2 className="intro">
+      <h2 className="intro" id="team">
         Let's Introduce Our <span className="intro-team"> Team</span>{" "}
       </h2>
       <section className="teammembers-section">
@@ -90,11 +90,11 @@ const TeamMembers = () => {
             their fields
           </p>
           <div className="button-container">
-            <a href="#icon" className="button">
+            <a href="https://dribbble.com/WebStack_corp?onboarding=true" target="blank" className="button">
               <FontAwesomeIcon icon={faDribbble} />
               See our Dribble
             </a>
-            <a href="#icon" className="button">
+            <a href="https://github.com/Webstack-Corporation" target="blank" className="button">
               <FontAwesomeIcon icon={faGithub} />
               See our Github
             </a>

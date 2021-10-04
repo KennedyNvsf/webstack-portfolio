@@ -15,7 +15,7 @@ const Footer = () => {
     <>
       {isMobile && (
         <>
-          <div className="footer">
+          <div className="footer" >
             <div className="newsletter">
               <h3>Subscribe to our Newsletter</h3>
               <p>

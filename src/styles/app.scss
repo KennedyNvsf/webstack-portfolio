@@ -4,6 +4,13 @@ body{
 
     background-color: #FFFFFF;
     overflow-x: hidden;
+    
+}
+
+html{
+
+    scroll-behavior: smooth;
+
 }
 
 
@@ -15,3 +22,4 @@ body{
 @import "../components/TeamMembers/TeamMembers";
 @import "../components/Common/Common";
 @import "../components/servicesOffered/servicessection";
+@import "../components/Hire_us/hire";

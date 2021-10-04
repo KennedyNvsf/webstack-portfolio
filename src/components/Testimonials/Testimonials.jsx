@@ -99,7 +99,7 @@ const StyledDotGroup = styled(DotGroup)`
 const Testimonials = (props) => {
   const isMobile = useMediaQuery({ query: "(max-width: 480px)" });
   return (
-    <Section>
+    <Section id="testemonials"> 
       <SectionIntro>
         <SectionTitle> User Testimonials</SectionTitle>
         <SectionText>What others saying about us</SectionText>
