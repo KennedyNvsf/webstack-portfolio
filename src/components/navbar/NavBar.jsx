@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import "../navbar/_navbar.style.scss";
-// import Brightness3RoundedIcon from '@material-ui/icons/Brightness3';
+// import Brightness3RoundedIcon from 'Brightness3';
 //Animations
 // import {motion} from "framer-motion";
 // import { BoxAnimationDown } from "../../animations";

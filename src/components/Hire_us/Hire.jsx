@@ -14,7 +14,7 @@ const HireUs = () => {
 
             <section class="contactar">
 
-                <form action="https://formspree.io/f/mjvjeaop" method="POST">
+                <form   action="https://formspree.io/f/mdoyjlrq" method="POST">
 
                     <div class="nome_form">
                         

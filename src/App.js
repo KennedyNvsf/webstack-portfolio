@@ -6,7 +6,7 @@ import TeamMembers from "./components/TeamMembers/TeamMembers";
 import Vision from "./components/Vision/Vision";
 // import Common from "./components/Common/Common";
 import Testimonials from "./components/Testimonials/Testimonials";
-import Footer from "./components/Footer/Footer";
+import  {Footer} from "./components/Footer/Footer";
 
 import {Marginer} from "./components/Marginer";
 import Mission from "./components/Mission/Mission";
