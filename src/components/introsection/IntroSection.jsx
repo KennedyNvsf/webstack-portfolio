@@ -13,7 +13,7 @@ const IntroSection = () => {
 
     return (
 
-        <div className="introSection">
+        <div className="introSection" id="home">
 
             <motion.div variants={BoxAnimationLeft} initial="hidden" animate="show" className="leftside">
                 <img src={leftSide} alt="" />

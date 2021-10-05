@@ -38,9 +38,9 @@
 }
 .common-button {
   width: 140px;
-  height: 45px;
+  // height: 45px;
   background: #1d92ed;
-  padding: 0.5em;
+  padding: 1rem 2rem;
   color: #fff;
   border: none;
   outline: none;
@@ -48,6 +48,7 @@
   text-decoration: none;
   font-size: 1.3em;
   cursor: pointer;
+  text-align: center;
 }
 .common-button:hover {
   background: #0467fb;

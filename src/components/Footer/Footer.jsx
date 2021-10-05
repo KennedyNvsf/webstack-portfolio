@@ -102,15 +102,15 @@ export const Footer = () => {
               <ul>
                 <li>
                   {" "}
-                  <p> Our Profile</p>
+                  <a href="#team"><p> Our Profile</p></a>
                 </li>
                 <li>
                   {" "}
-                  <p>Our Mission </p>
+                  <a href="#home"><p> Our Mission</p></a>
                 </li>
                 <li>
                   {" "}
-                  <p>Our Vision </p>
+                  <a href="#services"><p> Our Vision</p></a>
                 </li>
               </ul>
             </div>

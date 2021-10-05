@@ -6,6 +6,7 @@ import { BoxAnimationLeft } from "../../animations";
 import { BoxAnimationRight } from "../../animations";
 import { useMediaQuery } from "react-responsive";
 
+
 const Common = ({ title, headline, description, btnText, img, type }) => {
   const [element, controls] = useScroll();
   const [elementB, controlsB] = useScroll();
@@ -28,9 +29,9 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
                   <h2>{title}</h2>
                   <h3>{headline}</h3>
                   <p>{description}</p>
-                  <button href="" className="common-button">
-                    {btnText}
-                  </button>
+                  
+                    <a href="#testemonials" className="common-button">{btnText}</a>
+                  
                 </motion.div>
 
                 <div>
@@ -52,9 +53,9 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
                   <h2>{title}</h2>
                   <h3>{headline}</h3>
                   <p>{description}</p>
-                  <button id="#testemonials" className="common-button">
+                  <a href="#testemonials" className="common-button">
                     {btnText}
-                  </button>
+                  </a>
                 </motion.div>
 
                 <div>
@@ -84,12 +85,9 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
                   className="vision-description"
                 >
                   <p>{description}</p>
-                  <button
-                    href=""
-                    className="common-button vision-button-mobile"
-                  >
+                  <a href="#services" className="common-button vision-button-mobile">
                     {btnText}
-                  </button>
+                  </a>
                 </motion.div>
               </div>
             </>
@@ -112,9 +110,9 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
                   <h3>{headline}</h3>
 
                   <p>{description}</p>
-                  <button href="" className="common-button">
+                  <a href="#services" className="common-button">
                     {btnText}
-                  </button>
+                  </a>
                 </motion.div>
               </div>
             </>
