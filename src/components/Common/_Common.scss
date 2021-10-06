@@ -38,9 +38,9 @@
 }
 .common-button {
   width: 140px;
-  // height: 45px;
+  height: 45px;
   background: #1d92ed;
-  padding: 1rem 2rem;
+  padding: 0.5em;
   color: #fff;
   border: none;
   outline: none;
@@ -48,7 +48,6 @@
   text-decoration: none;
   font-size: 1.3em;
   cursor: pointer;
-  text-align: center;
 }
 .common-button:hover {
   background: #0467fb;
@@ -58,7 +57,7 @@
   .common-button {
     width: 200px;
     height: 60px;
-    font-size: 1.6em;
+    font-size: 1.9em;
     padding: 0 10px;
   }
 }
@@ -71,27 +70,29 @@
   margin-left: 25em;
   margin-right: 25em;
 }
+.vision-top {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+.vision-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
 
 .vision-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 1em;
-  gap: 2.5em;
+  gap: 2.5em
 }
 
 .vision h2 {
   color: #1d92ed;
   font-size: 3em;
   font-weight: 600;
-}
-
-.vision-button-mobile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  font-size: 2em;
 }
 
 .vision-description h2 {

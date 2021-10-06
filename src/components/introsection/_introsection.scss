@@ -7,6 +7,7 @@
 
     display: flex;
     justify-content: space-around;
+    overflow-x: hidden;
     // align-items: center;
     
 }
@@ -241,15 +242,6 @@
 @media screen and (max-width: 768px){
 
 
-    // .leftside, .rightside {
-
-    //     display: none;
-
-    //     img{
-
-    //         width: 25rem;
-    //     }
-    // }
 
     .introText {
 
@@ -270,6 +262,62 @@
         img{
             
             width: 45rem;
+            
+        }
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+
+
+    .introText {
+
+        h1{
+            font-size: 3rem;
+        }
+
+        p, .intro_startedBtn, .intro_learnBtn{
+            font-size:1.5rem;
+        }
+    }
+
+    .introImage{
+
+        margin-top: 5rem;
+        text-align: center;
+
+        img{
+            
+            width: 40rem;
+            
+        }
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+
+
+    .introText {
+
+        h1{
+            font-size: 2.5rem;
+        }
+
+        p, .intro_startedBtn, .intro_learnBtn{
+            font-size:1.2rem;
+        }
+    }
+
+    .introImage{
+
+        margin-top: 5rem;
+        text-align: center;
+
+        img{
+            
+            width: 35rem;
             
         }
     }

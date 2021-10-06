@@ -13,8 +13,7 @@ const Mission = () => {
         title="Our Mission"
         headline="We will provide satisfactory service to
         clients"
-        description="We have a mission where we have to make our clients satisfied
-        without being disappointed"
+        description="Our Mission is to Provide Eye catching and Modern Website Layouts for our Clients, Fast and Efficiently"
         btnText="See Testimonials"
         img={missionImg}
         type="mission"
@@ -24,3 +23,7 @@ const Mission = () => {
 };
 
 export default Mission;
+
+
+
+// Our Mission is to Provide Eye catching and Modern Website Layouts for our Clients, Fast and Efficiently

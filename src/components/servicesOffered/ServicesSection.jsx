@@ -5,7 +5,9 @@ import "../servicesOffered/_servicessection.scss";
 import ComputerIcon from '@material-ui/icons/Computer';
 import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly';
 import StorageIcon from '@material-ui/icons/Storage';
-
+import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
+import ArtTrackIcon from '@material-ui/icons/ArtTrack';
+import InsertChartIcon from '@material-ui/icons/InsertChart';
 
 const ServicesSection = () => {
 
@@ -21,22 +23,22 @@ const ServicesSection = () => {
                 <div className="servicesBlock">
 
                     <div className="offerTitle">
-                        <ComputerIcon/>
+                        <ArtTrackIcon/>
                         <h3>Design Assessment</h3>
                     </div>
 
-                  <p className="offerDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem eius adipisci neque incidunt possimus ex quod doloremque tempore accusantium quis?</p>
+                  <p className="offerDescription">Get a previous Design Assessment for your Business or Digital platform from our Team of Designers.</p>
 
                 </div>
 
                 <div className="servicesBlock">
 
                     <div className="offerTitle">
-                        <MobileFriendlyIcon/>
+                        <ComputerIcon/>
                         <h3>Web Development</h3>
                     </div>
 
-                    <p className="offerDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem eius adipisci neque incidunt possimus ex quod doloremque tempore accusantium quis?
+                    <p className="offerDescription"> We provide our Clients with Up to Date Web Development Services with fast and clean Code Structures.
                     </p>
 
                 </div>
@@ -44,11 +46,11 @@ const ServicesSection = () => {
                 <div className="servicesBlock">
 
                     <div className="offerTitle">
-                        <StorageIcon/>
+                         <MobileFriendlyIcon/>
                         <h3>Mobile Integration</h3>
                     </div>
 
-                    <p className="offerDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem eius adipisci neque incidunt possimus ex quod doloremque tempore accusantium quis?
+                    <p className="offerDescription">We also make sure that that your Website looks Neat on Mobile Devices.
                     </p>
 
                 </div>
@@ -60,7 +62,7 @@ const ServicesSection = () => {
                         <h3>User & Data Management</h3>
                     </div>
 
-                    <p className="offerDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem eius adipisci neque incidunt possimus ex quod doloremque tempore accusantium quis?
+                    <p className="offerDescription"> Users and Data Management are safely handled By our Team of Expert Backend Developers
                     </p>
 
                 </div>
@@ -68,11 +70,11 @@ const ServicesSection = () => {
                 <div className="servicesBlock">
 
                     <div className="offerTitle">
-                        <StorageIcon/>
+                        <PeopleAltIcon/>
                         <h3>Client Consulting</h3>
                     </div>
 
-                    <p className="offerDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem eius adipisci neque incidunt possimus ex quod doloremque tempore accusantium quis?
+                    <p className="offerDescription"> Never feel left out. Track the Progress of your Product and Get up to Speed Feedback from our Team
                     </p>
 
                 </div>
@@ -80,11 +82,11 @@ const ServicesSection = () => {
                 <div className="servicesBlock">
 
                     <div className="offerTitle">
-                        <StorageIcon/>
+                        <InsertChartIcon/>
                         <h3>Maintenance</h3>
                     </div>
 
-                    <p className="offerDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem eius adipisci neque incidunt possimus ex quod doloremque tempore accusantium quis?
+                    <p className="offerDescription"> Get full access to product optimization and maintenance, Keeping your Website Always Market Ready
                     </p>
 
                 </div>

@@ -91,3 +91,20 @@
     font-weight: 400;
     border-radius: 1.5rem;
 }
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .hireTitle{
+
+       font-size: 1.2rem;
+    }
+
+    .contactar form button{
+
+        color: black;
+    }
+    
+}

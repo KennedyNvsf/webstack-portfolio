@@ -37,7 +37,10 @@ const SectionTitle = styled.h4`
   color: #1d92ed;
   @media screen and (max-width: 480px) {
     text-align: center;
+    font-size: 30px;
   }
+
+ 
 `;
 const SectionText = styled.h2`
   font-size: 34px;
@@ -45,8 +48,11 @@ const SectionText = styled.h2`
   color: #222330;
   display: flex;
   align-items: center;
+
   @media screen and (max-width: 480px) {
     text-align: center;
+    margin: auto;
+    font-size: 20px;
   }
 `;
 
@@ -55,6 +61,11 @@ const ReviewsContainer = styled(Element)`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 480px) {
+    margin: 0 auto;
+    justify-content: center;
+  }
 `;
 
 const StyledCarouselProvider = styled(CarouselProvider)`
@@ -94,6 +105,10 @@ const StyledDotGroup = styled(DotGroup)`
   .carousel__dot--selected {
     background-color: #c4c4c4;
   }
+
+  @media screen and (max-width: 480px) {
+  margin-top: -5rem;
+  }
 `;
 
 const Testimonials = (props) => {
@@ -118,41 +133,38 @@ const Testimonials = (props) => {
             <Slide index={0}>
               <Reviewcard
                 reviewText="Your company is truly upstanding and
-                is behind its product 100%. They have excellent grasp of their subject, and have created something great for us.  "
-                username="John Coner"
+                i can't wait to see how far you will go."
+                username="Carla Richards"
                 userImgUrl={User1Img}
-                city="Tokyo"
-                country="Japan"
+                city="Toronto"
+                country="Canada"
               />
             </Slide>
             <Slide index={1}>
               <Reviewcard
-                reviewText="Your company is truly upstanding and
-                is behind its product 100%. They have excellent grasp of their subject, and have created something great for us.  "
+                reviewText="An amazing team of developers and designers that are more than ready to deliver great services."
                 username="John Coner"
                 userImgUrl={User2Img}
-                city="Tokyo"
-                country="Japan"
+                city="New York"
+                country="United States"
               />
             </Slide>
             <Slide index={2}>
               <Reviewcard
-                reviewText="Your company is truly upstanding and
-                is behind its product 100%. They have excellent grasp of their subject, and have created something great for us.  "
-                username="John Coner"
+                reviewText="It's so great to witness the hardwork and dedication of this team."
+                username="Pedro Bastos"
                 userImgUrl={User3Img}
-                city="Tokyo"
-                country="Japan"
+                city="Lisboa"
+                country="Portugal"
               />
             </Slide>
             <Slide index={3}>
               <Reviewcard
-                reviewText="Your company is truly upstanding and
-                is behind its product 100%. They have excellent grasp of their subject, and have created something great for us.  "
-                username="John Coner"
+                reviewText="Fantástica iniciativa desta equipa, continuem com o ótimo trabalho."
+                username="João Pereira"
                 userImgUrl={User4Img}
-                city="Tokyo"
-                country="Japan"
+                city="Porto"
+                country="Portugal"
               />
             </Slide>
           </Slider>

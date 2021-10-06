@@ -6,7 +6,6 @@ import { BoxAnimationLeft } from "../../animations";
 import { BoxAnimationRight } from "../../animations";
 import { useMediaQuery } from "react-responsive";
 
-
 const Common = ({ title, headline, description, btnText, img, type }) => {
   const [element, controls] = useScroll();
   const [elementB, controlsB] = useScroll();
@@ -19,7 +18,7 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
           {isMobile && (
             <>
               <div className="mission">
-                <motion.div
+                <div
                   variants={BoxAnimationLeft}
                   ref={element}
                   initial="hidden"
@@ -29,10 +28,10 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
                   <h2>{title}</h2>
                   <h3>{headline}</h3>
                   <p>{description}</p>
-                  
-                    <a href="#testemonials" className="common-button">{btnText}</a>
-                  
-                </motion.div>
+                  <button href="" className="common-button">
+                    {btnText}
+                  </button>
+                </div>
 
                 <div>
                   <img className="mission-img-mobile" src={img} alt="" />
@@ -53,9 +52,9 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
                   <h2>{title}</h2>
                   <h3>{headline}</h3>
                   <p>{description}</p>
-                  <a href="#testemonials" className="common-button">
+                  <button href="" className="common-button">
                     {btnText}
-                  </a>
+                  </button>
                 </motion.div>
 
                 <div>
@@ -72,23 +71,25 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
           {isMobile && (
             <>
               <div className="vision">
-                <div>
+                <div className="vision-top">
                   <h2>{title}</h2>
                   <h3>{headline}</h3>
                   <img className="vision-img-mobile" src={img} alt="" />
                 </div>
-                <motion.div
+                <div
+                  className="vision-description"
                   variants={BoxAnimationRight}
                   ref={elementB}
                   initial="hidden"
                   animate={controlsB}
-                  className="vision-description"
                 >
-                  <p>{description}</p>
-                  <a href="#services" className="common-button vision-button-mobile">
-                    {btnText}
-                  </a>
-                </motion.div>
+                  <div className="vision-bottom">
+                    <p>{description}</p>
+                    <button href="" className="common-button">
+                      {btnText}
+                    </button>
+                  </div>
+                </div>
               </div>
             </>
           )}
@@ -104,15 +105,16 @@ const Common = ({ title, headline, description, btnText, img, type }) => {
                   ref={elementB}
                   initial="hidden"
                   animate={controlsB}
-                  className="vision-description"
                 >
-                  <h2>{title}</h2>
-                  <h3>{headline}</h3>
+                  <div className="vision-description">
+                    <h2>{title}</h2>
+                    <h3>{headline}</h3>
 
-                  <p>{description}</p>
-                  <a href="#services" className="common-button">
-                    {btnText}
-                  </a>
+                    <p>{description}</p>
+                    <button href="" className="common-button">
+                      {btnText}
+                    </button>
+                  </div>
                 </motion.div>
               </div>
             </>
